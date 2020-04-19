@@ -14,7 +14,7 @@
         <div id="navbar">
             <!-- Create Logo -->
             <div class="logo">
-                Lattitude 
+                <h3>Lattitude </h3>
             </div>
 
             <ul>
@@ -31,10 +31,13 @@
                       Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Max Temperature</a>
-                      <a class="dropdown-item" href="#">Humidity</a>
-                      <a class="dropdown-item" href="#">Cloudiness</a>
-                      <a class="dropdown-item" href="#">Wind Speed</a>
+                      <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="comparison.html">Comparison</a>
+                      <a class="dropdown-item" href="data.html">Data</a>
                     </div>
                   </li>
                 <li><a href="./comparison.html">Comparison</a> </li>
@@ -42,16 +45,15 @@
             </ul>
 
         </div>
-        <div class="tbl-container"><h2 class="txt-visualization comparison-txt"><strong>Data</strong></h2> 
+        <div class="tbl-container"><h1 class="txt-visualization comparison-txt"><strong>Data</strong></h1> 
             <hr>
-            <br>
-            <em>The following table includes all of the data used for plotting during this project</em><br><br>  
+            <p>The following table includes all of the data used for plotting during this project</p><br> 
         <div class="row tbl-container">
             
            
-            <table border="1" class="dataframe">
+            <table class="table table-striped">
                 <thead>
-                  <tr style="text-align: left;">
+                  <tr style="text-align: center;">
                     <th></th>
                     <th>City_ID</th>
                     <th>City</th>

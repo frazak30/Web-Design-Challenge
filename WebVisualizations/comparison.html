@@ -10,7 +10,7 @@
 
     <!-- Custome Style sheet -->
     <link rel="stylesheet" href="./css/custom.css">
-    <title>Comparison Page</title>
+    <title>Bootcamp Visualization Dashboard</title>
   </head>
   <body>
     <div  class="container-fluid">
@@ -19,7 +19,7 @@
         <div id="navbar">
             <!-- Create Logo -->
             <div class="logo">
-                Lattitude 
+                <h3>Lattitude </h3>
             </div>
             <ul>
                 <li class="nav-item dropdown">
@@ -39,6 +39,9 @@
                       <a class="dropdown-item" href="#">Humidity</a>
                       <a class="dropdown-item" href="#">Cloudiness</a>
                       <a class="dropdown-item" href="#">Wind Speed</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="comparison.html">Comparison</a>
+                      <a class="dropdown-item" href="data.html">Data</a>
                     </div>
                   </li>
                 <li><a href="./comparison.html">Comparison</a> </li>
@@ -51,23 +54,31 @@
             <div class="txt-visualization comparison-txt"><strong>Comparison: Latitude vs X</strong></div> 
             <hr>
             <br>
-            <em>Click any plot to get in-depth analysis</em><br><br>
+            <p>Click any plot to get in-depth analysis</p><br><br>
             <div class="row">
                 <div class="col-lg-5 left-adjust">
                     <h3 class="txt-summary comparison-txt">vs. Max Temperature</h3>
+                    <a href='temp.html'>
                     <img src="./img/LatitudevsTemperature.png" alt="latitudevstemperature">
+                    </a>
                 </div>
                 <div class="col-lg-6 col-4">
                     <h3 class="txt-summary comparison-txt">vs. Humidity</h3>
+                    <a href='humidity.html'>
                     <img src="./img/HumidityvsLat.png" alt="HumidityvsLat">
+                    </a>
                 </div>
                 <div class="col-lg-5 left-adjust">
                     <h3 class="txt-summary comparison-txt">vs. Cloudiness</h3>
+                    <a href='cloudiness.html'>
                     <img src="./img/CloudvsLat.png" alt="cloudsvslat">
+                    </a>
                 </div>
                 <div class="col-lg-6 col-4">
                     <h3 class="txt-summary comparison-txt">vs. Wind Speed</h3>
+                    <a href='wind.html'>
                     <img src="./img/WindinessvsLat.png" alt="WindinessvsLat">
+                    </a>
                 </div>
             </div>
         </div>

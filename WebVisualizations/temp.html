@@ -47,23 +47,22 @@
         <!-- Create grid layout -->
         <div class="row">
             <div id="summary" class="col-md-7">
-                <span class="txt-summary"><strong>Summary: Latitude vs. X</strong></span> 
+                <span class="txt-summary"><strong>Max Temperature</strong></span> 
                 <hr>
-                <img src="./img/LatitudevsTemperature.png" alt="LatitudevsTemperature" class="txt-float">
-                The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis,
-                we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.<br><br>
-                After assemblinh the dataset, we used MatPlotlib to plot various aspects of the weather vs. latitude. 
-                Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides
-                the source data and visualizations created as part of the analysis, as well as explanations and descriptions 
-                of any trends and correlations witnessed.
+                <img src="./img/LatitudevsTemperature.png" alt="LatitudevsTemperature" class="txt-center">
+                <p> As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg, Latitude).
+                  More interestingly, however is the fact that the southern hemisphere tends to be warmer
+                  this time of the year than the northern hemisphere. This may be due to the tilt of the earth
+                  at the time of the year this data was gathered. 
+                </p>
             </div>
 
             <div id="visualization" class="col-md-4">
                <span class="txt-visualization"><strong>Visualizations</strong></span> 
                <hr>
                <div class="row">
-                   <div class="col-lg-6 col-4">
-                       <img class="img-size" src="./img/LatitudevsTemperature.png" alt="latitudevstemperature">
+                   <div class="col-xs-3 colsm-3 col-md-6">
+                       <img class="img-size" src="./img/LatitudevsTemperature.png" alt="latitudevstemperature" style="width:150px;height:150px;">
                    </div>
                    <div class="col-lg-6 col-4">
                        <img class="img-size" src="./img/HumidityvsLat.png" alt="HumidityvsLat">
