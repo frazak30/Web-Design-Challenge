@@ -34,6 +34,7 @@ body{
         display: inline-block;
         margin: 15px 40px 10px 0;
         font-size: x-large;
+        z-index: 1;
 
 }
 
@@ -60,6 +61,7 @@ body{
     padding: 15px 10px 10px 10px;
     margin-top: 50px;
     margin-left: 10px;
+    z-index: -1;
 
 }
 
@@ -82,13 +84,13 @@ body{
 }
 
     
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    [class*="col-"] {
+   /* [class*="col-"] {
         width: 100%;
     }
       
- }
+ } **/
 
  .comparison-txt{
      margin-left: 50px;
@@ -132,3 +134,40 @@ body{
 	left: 0;
 	bottom: 0;
 }
+
+@media only screen and (max-width: 756px) {
+    #summary {
+      width: 100%;
+      background-color: white;
+    }
+
+    #visualization {
+        width: 100%;
+        background-color: white;
+
+    }
+    .img-size{
+        width: 100px;
+        margin: 30px 0 30px 0;
+        
+        
+    }
+
+    #navbar  ul {
+        position: relative;
+         
+    }
+    
+    #navbar ul li {
+            text-decoration: none;
+            display: inline-block;
+            margin: 15px 40px 10px 0;
+            font-size: x-large;
+            z-index: 1;
+    
+    }
+    
+
+    
+  }
+
